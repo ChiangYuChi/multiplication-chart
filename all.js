@@ -13,8 +13,8 @@ function createChart() {
         title.setAttribute('class', 'chart_title');
         chart.appendChild(title);
         for (let j = 1; j < 10; j++) {
-            let answer = i * j;
-            let list = document.createElement('li');
+            const answer = i * j;
+            const list = document.createElement('li');
             list.textContent = `${i}x${j}=${answer}`;
             chart.appendChild(list);
         };
