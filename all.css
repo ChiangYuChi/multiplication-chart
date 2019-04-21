@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrap {
+
+    background-color: #F0F0F0;
+    font-family: Helvetica Neue, Bold;
+    color: #2EB738;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.line {
+    width: 350px;
+    background-color: #2EB738;
+    height: 2px;
+    position: relative;
+}
+
+.line:before {
+    content: "X";
+    left: -20px;
+    font-size: 20px;
+    position: absolute;
+    top: -8px;
+}
+
+.line:after {
+    content: "X";
+    right: -20px;
+    font-size: 20px;
+    position: absolute;
+    top: -8px;
+}
+
+.title {
+    box-sizing: border-box;
+    width: 350px;
+    margin: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.mainTitle {
+    font-size: 56px;
+    font-weight: bold;
+    padding-top: 118px;
+    padding-bottom: 20px;
+}
+
+.secondTitle {
+    font-size: 24px;
+    padding-bottom: 118px;
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 1px 5px grey;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 30px;
+    margin: 15px;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    height: 280px;
+    padding: 33px 8px;
+}
+
+
+
+.box .chart_title {
+    font-size: 128px;
+    font-weight: bold;
+    text-shadow: 4px 0px 3px grey;
+}
+
+.chart li {
+    font-size: 24px;
+    padding: 10px;
+}
